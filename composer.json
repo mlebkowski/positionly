@@ -1,0 +1,14 @@
+{
+    "name": "mlebkowski/Positionly",
+    "authors": [
+        {
+            "name": "Maciej Lebkowski",
+            "email": "m.lebkowski@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Positionly": "src/"
+        }
+    }
+}
