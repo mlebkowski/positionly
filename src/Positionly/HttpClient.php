@@ -13,7 +13,7 @@ class HttpClient implements HttpClientInterface
 		$c = curl_init($url);
 		curl_setopt_array($c, array (
 			CURLOPT_POST => true,
-			CURLOPT_PROXY => 'nassau.one.pl:444',
+			# CURLOPT_PROXY => 'nassau.one.pl:444',
 			CURLOPT_RETURNTRANSFER => true,
 			CURLOPT_POSTFIELDS => http_build_query($params),
 		));
